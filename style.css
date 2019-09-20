@@ -1,0 +1,50 @@
+body,
+html {
+/*  width: 100%;
+  height: 100%;*/
+  background-image: url("header.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.title{
+	color: rgba(255,255,255,0.8);
+	font-size: 30px;
+	text-align: center;
+	padding-top: 210px;
+}
+
+.moreBtn{
+/*	height: 50px;
+	width: 150px;*/
+	/*為了調整button大小所寫的，但後來改用padding*/
+	border-radius: 10px;
+	background-color:#F05F44;
+	border-color: #F05F44;
+	color: #FFFFFF;
+	/*display: block;*/
+	/*margin: 0 auto;*/
+	/*為了button置中所寫的，後來改用d-flex(寫在html)*/
+	margin-top: 200px;
+	padding:10px 50px;
+
+}
+
+.moreBtn:hover{
+transform: scale(1.1);
+}
+
+a{
+	text-decoration: none;
+}
+
+.test{
+
+}
